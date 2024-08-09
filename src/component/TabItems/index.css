@@ -1,0 +1,32 @@
+.tab-item {
+  background: none;
+  border: none;
+  outline: none;
+  font-family: 'Roboto';
+  font-size: 14px;
+  padding: 15px 0px;
+  cursor: pointer;
+  width: 190px;
+  margin-left: 10px;
+  margin-right: 10px;
+  align-self: flex-start;
+}
+
+.active-tab {
+  color: #d65c5c;
+  font-weight: 500;
+  padding-bottom: 13px;
+  border-bottom: 2px solid #d65c5c;
+}
+
+@media (max-width: 767px) {
+  .tab-item {
+    width: 40vw;
+    overflow-x: auto;
+  }
+}
+
+* {
+  -ms-overflow-style: none;  /* IE and Edge */
+  scrollbar-width: none;  /* Firefox */
+}

@@ -1,0 +1,20 @@
+.tabs-container {
+  display: flex;
+  gap: 15px;
+  border-top: 1px solid lightgrey;
+  border-bottom: 1px solid lightgrey;
+}
+
+.food-items-list-container {
+  padding-left: 0px;
+}
+
+.food-items-container {
+  padding: 10px;
+}
+
+@media (max-width: 767px) {
+  .tabs-container {
+    overflow: auto;
+  }
+}
